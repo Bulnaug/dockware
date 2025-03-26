@@ -1,0 +1,27 @@
+{
+    "name": "t-est-plugin/web-face-cms-element",
+    "description": "t-est-plugin/web-face-cms-element",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "TEstPlugin\\WebFaceCmsElement",
+        "label": {
+            "de-DE": "Skeleton plugin",
+            "en-GB": "Skeleton plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "TEstPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TEstPlugin\\Tests\\": "tests/"
+        }
+    }
+}
